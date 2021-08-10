@@ -5,3 +5,4 @@
 - sudo ufw allow <port number> (firewall allows the particular port number)
 - sudo ufw status numbered (gives the staus of allowed rules with numbering)
 - sudo ufw delete <number from numbered status output>(this is used to delete the particular numbered rule)
+- sudo nmap -sS <sever ip adress> (gives all the ports allowed)
